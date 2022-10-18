@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(150, 148, 205);
+    width: 190px;
+    height: 100vh;
+    font-family: 'IBM Plex Serif', serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    
+}
+.sidebar nav{
+    padding: 10px;
+    margin: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarGo{
+    
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.main{
+    /* background-color: rgb(129, 182, 118); */
+    width: 90vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    /* background-color: blue; */
+    height: 70vh;
+    width: 80vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 70vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+font-size: 1.8rem;
+}
+.name{
+font-size: 2rem;
+font-weight: bold;
+}
+.about{
+font-size: 1.8rem;
+}
+.moreabout{
+margin-top: 19px;
+font-size: 15px;
+}
+
+.btn{
+padding: 3px 9px;
+border-width: 1px;
+border-radius: 13px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: .9rem;
+margin-top: 19px;
+cursor: pointer;
+}
+
+.btn-sm{
+    font-size: .9rem;
+    padding:10px 20px ;
+    margin: 2rem 0rem 0rem 23rem;
+    border-radius: 2rem;
+}
+
+.btn:hover{
+background-color: white;
+color: dodgerblue;
+}
+.contactform{
+font-family: 'Source Code Pro', monospace;
+padding-top: 10px;
+/* padding: 20px 6px; */
+}
+
+.contactform h1{
+/* text-align: center; */
+
+margin-bottom: 2rem;
+margin-left: 22rem;
+}
+
+.contactform form div{
+    padding: 3px 3rem ;
+    display: flex;
+    flex-direction: column;
+    margin-top:  .5rem; 
+    margin-left: 20rem;
+}
+
+.contactform form div input{
+    width: 40rem;
+    border-radius: .5rem;
+    margin: 1px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: blue; 
+    margin-left: 0rem;
+    margin: 0rem;
+} 
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+     width: 15px;
+     margin: 2px;
+}
+h1{
+    /* margin: 100px 10px; */
+    margin-top: 100px;
+    margin-left: 600px;
+    /* margin-left: 10px; */
+}
+.intro h2{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.intro p{
+    margin: 23px 400px;
+    font-size: large;
+
+}
+.skillContainer{
+    margin-top: 30px;
+    margin-left: 400px;
+    font-weight: bold;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+}
+.c{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(0, 255, 85);
+    margin: 0 110px;
+}
+.python{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(21, 255, 0);
+    margin: 4px;
+    margin: 0 107px;
+}
+.sql{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(0, 255, 64);
+    margin: 4px;
+    margin: 0 100px;
+}
+.excel{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(13, 255, 0);
+    margin: 4px;
+    margin: 0 47px;
+}
+.pbi{
+    width: 200px;
+    height: 5px;
+    background-color: rgb(51, 255, 0);
+    margin: 0 25px;
+}
+.gds{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(251, 255, 31);
+    margin: 0 22px;
+}
+.tab{
+    width: 120px;
+    height: 5px;
+    background-color: rgb(238, 255, 0);
+    margin: 0 100px;
+}
+
+@media(max-width: 1000px){
+    /* .sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+} 
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 5px;   
+    left: 10px;
+
+}
+.ham{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.soon{
+    margin-left: 15rem;
+    margin-top: 4rem;
+}
